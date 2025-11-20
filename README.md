@@ -2,9 +2,9 @@
 
 
 <!-- Badges -->
-[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](link-to-paper)
+[![Paper]([(https://doi.org/10.1021/jacs.4c14757)](link-to-paper)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO)](https://github.com/USERNAME/REPO/issues)
+[![GitHub issues](https://github.com/Meganwu/AutoOSS_nanonis)](https://github.com/USERNAME/REPO/issues)
 [![Documentation Status](https://readthedocs.org/projects/YOURDOC/badge/?version=latest)](https://YOURDOC.readthedocs.io/en/latest/?badge=latest)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
 [![GitHub Release](https://img.shields.io/github/v/release/USERNAME/REPO)](https://github.com/USERNAME/REPO/releases)
