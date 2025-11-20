@@ -1,5 +1,26 @@
 # AutoOSS_nanonis
 
+
+<!-- Badges -->
+[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](link-to-paper)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO)](https://github.com/USERNAME/REPO/issues)
+[![Documentation Status](https://readthedocs.org/projects/YOURDOC/badge/?version=latest)](https://YOURDOC.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+[![GitHub Release](https://img.shields.io/github/v/release/USERNAME/REPO)](https://github.com/USERNAME/REPO/releases)
+
+---
+
+# 📑 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [Releases](#releases)
+- [Citation](#citation)
+- [License](#license)
+
 # AutoOSS
 <img src="./Image/total_architecture_zn_color_hel_font.png" alt="Workflow" style="width:90%;">
 
