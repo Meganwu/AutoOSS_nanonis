@@ -72,7 +72,7 @@ The optimized neural network parameters of image classifiers were uploaded to ev
 
 ## scan_module
 
-It enables scanning along designed plan for a long time, and recognizes target molecules and zooms in to scan target molecules.
+It enables long-duration scanning along a predefined path and automatically detects target molecules, then zooms in to scan them in detail.
 
 ## dissociate_module
 
