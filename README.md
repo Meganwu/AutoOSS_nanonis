@@ -72,14 +72,25 @@ The optimized neural network parameters of image classifiers were uploaded to ev
 
 ## scan_module
 
+It enables scanning along designed plan for a long time, and recognizes target molecules and zooms in to scan target molecules.
+
 ## dissociate_module
 
+It introduces active learning or reinforcement learning method to look for proper dissociation parameters by multiple modes (constant current, constant height, pulse).
+
 ## move_module
+
+It enables to explore proper manipulation parameters ((constant current, constant height, pulse) to move molecules along precise distance and directions by active learning, reinforcement learning and path planing algorithm.
 
 
 ## associate_module
 
+It introduces active learning or reinforcement learning method to look for proper association parameters by multiple modes (constant current, constant height, pulse).
+
+
 ## assemble_module
+
+It combines all functions above and allow more complicated tasks like assembling designed structures.
 
 
 
