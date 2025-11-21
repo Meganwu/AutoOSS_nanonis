@@ -70,6 +70,17 @@ Neural network models based on ResNet18 can be applied to identify reactants and
 ## params
 The optimized neural network parameters of image classifiers were uploaded to evalute the protrusion in STM images.
 
+## dissociate_module
+
+## move_module
+
+
+## associate_module
+
+## assemble_module
+
+
+
 ## task_script
 It includes the script to show all dissociation cases with images and signal curves, to submit tasks, and all analyses in the manuscript. 
 
