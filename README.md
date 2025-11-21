@@ -1,6 +1,19 @@
 # AutoOSS_nanonis
 
 
+# Project Structure
+
+.
+├── data
+│   ├── raw
+│   └── processed
+├── src
+│   ├── main.py
+│   ├── utils.py
+│   └── models
+│       └── model.py
+└── README.md
+
 <!-- Badges -->
 [![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://doi.org/10.1021/jacs.4c14757)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
