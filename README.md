@@ -31,17 +31,75 @@ We developed the framework of AutoOSS (Autonomous on-surface synthesis) to autom
 
 
 ## Project Structure
-
+```
 .
-├── data
-│   ├── raw
-│   └── processed
-├── src
-│   ├── main.py
-│   ├── utils.py
-│   └── models
-│       └── model.py
-└── README.md
+|   LICENSE
+|   README.md
+\---AutoOSS
+    |   __init__.py
+    +---action_modules
+    |   |   diss_module.py
+    |   |   move_module.py
+    |   |   scan_module.py
+    |   +---assem_module
+    |   |   |   assem_utils.py
+    |   |   |   dynamic_rrt.py
+    |   |   |   path_planning.py          
+    +---env_modules
+    |   |   basic_params.py
+    |   |   dissociate_env.py
+    |   |   episode_memory.py
+    |   |   rrt.py
+    |   |   __init__.py         
+    +---img_modules
+    |   |   img_attrib.py
+    |   |   img_conv.py
+    |   |   img_net_framework.py          
+    +---img_signal_classifier
+    |       boss_curr_opt.py
+    |       boss_opt.py
+    |       boss_opt_2_class.py
+    |       boss_opt_2_messy.py
+    |       boss_opt_2_target.py
+    |       boss_opt_3_class.py
+    |       boss_signal_opt.py
+    |       curr_data.py
+    |       img_data.py
+    |       img_data_2_class.py
+    |       img_data_2_messy.py
+    |       img_data_2_target.py
+    |       img_data_3_class.py
+    |       topo_data.py      
+    +---model_params
+    |       img_classifier_best.pth
+    |       messy_classifier_2_best.pth
+    |       product_classifier_2_best.pth
+    |       product_classifier_3_best.pth    
+    +---nanonisTCP       
+    +---rl_modules
+    |   |   actor_critic_net.py
+    |   |   ddpg_agent.py
+    |   |   gaussianpolicy.py
+    |   |   initi_update.py
+    |   |   ppo_agent.py
+    |   |   qnetwork.py
+    |   |   replay_memory.py
+    |   |   sac_agent.py        
+    +---task_script
+    |   |   analysis_result.py
+    |   |   collect_images.py
+    |   |   diss_mols.py
+    |   |   move_mols.py
+    |   |   utils.py      
+    +---test_utils
+    |   |   detect_mol_test.py     
+    +---utils
+    |   |   detect_mols.py
+    |   |   extract_img_from_sxm.py
+    |   |   nanonis_sxm.py
+    |   |   utils.py
+          
+```
 
 # Installation
 
